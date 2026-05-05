@@ -3,6 +3,14 @@ using namespace std;
 
 class mahasiswa {
 public:
-    mahasiswa() {
-        cout << "Constructor terpanggil!" << endl; // definisi constructor
-    }
+    mahasiswa(); //constructor
+};
+
+mahasiswa::mahasiswa() {
+    cout << "Constructor terpanggil!" << endl; // implementasi constructor
+}
+
+int main() {
+    mahasiswa mhs; // pembuatan object
+    return 0;
+}
