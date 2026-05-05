@@ -25,4 +25,9 @@ mahasiswa :: mahasiswa(string iNama) {
     nama = iNama; // Definisi hanya nama
 }
 
+mahasiswa :: mahasiswa(int iNim, string iNama) {
+    nim = iNim; // Definisi nim dan nama
+    nama = iNama;
+}
+
 
